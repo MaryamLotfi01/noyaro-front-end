@@ -534,6 +534,125 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.desktop-navbar-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 100%;
+  width: 91.666667%;
+  justify-content: space-between;
+}
+
+.desktop-navbar-right-side-container {
+  display: flex;
+  height: 100%;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
+.desktop-navbar-logo-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-navbar-links-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.desktop-navbar-link {
+  cursor: pointer;
+  font-weight: 600;
+  color:  F5F5F5;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.desktop-navbar-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(128 216 45 / var(--tw-text-opacity));
+}
+
+.desktop-navbar-left-side-container {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.desktop-navbar-icon {
+  height: 1.75rem;
+  width: 1.75rem;
+  cursor: pointer;
+  color:  F5F5F5;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.desktop-navbar-icon:hover {
+  --tw-text-opacity: 1;
+  color: rgb(128 216 45 / var(--tw-text-opacity));
+}
+
+.desktop-navbar-icon-indicator {
+  position: absolute;
+  top: -0.75rem;
+  left: -0.75rem;
+  display: flex;
+  height: 1.5rem;
+  width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 216 45 / var(--tw-bg-opacity));
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .absolute {
   position: absolute;
 }
@@ -542,21 +661,12 @@ video {
   position: relative;
 }
 
-.-top-3 {
-  top: -0.75rem;
-}
-
-.-left-4 {
-  left: -1rem;
-}
-
 .-left-3 {
   left: -0.75rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.-top-3 {
+  top: -0.75rem;
 }
 
 .flex {
@@ -571,40 +681,12 @@ video {
   height: 1.5rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .w-6 {
   width: 1.5rem;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
-}
-
-.w-8 {
-  width: 2rem;
+.w-full {
+  width: 100%;
 }
 
 .cursor-pointer {
@@ -617,33 +699,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.gap-x-10 {
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
-}
-
-.gap-x-16 {
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
-}
-
-.gap-x-5 {
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
 }
 
 .rounded-full {
@@ -660,36 +715,25 @@ video {
   line-height: 1.25rem;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
-.text-secondary {
-  color:  F5F5F5;
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+@font-face {
+  font-family: "IranSans";
+
+  src: url("../fonts/IRANSans/IRANSansWeb.woff") format("woff");
+
+  src: url("../fonts/IRANSans/IRANSansWeb_Bold.woff") format("woff");
+
+  src: url("../fonts/IRANSans/IRANSansWeb_Medium.woff") format("woff");
+
+  src: url("../fonts/IRANSans/IRANSansWeb_Light.woff") format("woff");
+
+  src: url("../fonts/IRANSans/IRANSansWeb_UltraLight.woff") format("woff");
 }
 
-.hover\:text-primary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(128 216 45 / var(--tw-text-opacity));
+* {
+  font-family: "IranSans";
 }

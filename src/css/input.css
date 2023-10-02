@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "IranSans";
+  src: url("../fonts/IRANSans/IRANSansWeb.woff") format("woff");
+  src: url("../fonts/IRANSans/IRANSansWeb_Bold.woff") format("woff");
+  src: url("../fonts/IRANSans/IRANSansWeb_Medium.woff") format("woff");
+  src: url("../fonts/IRANSans/IRANSansWeb_Light.woff") format("woff");
+  src: url("../fonts/IRANSans/IRANSansWeb_UltraLight.woff") format("woff");
+}
+* {
+  font-family: "IranSans";
+}
+@layer components {
+  .desktop-navbar-container {
+    @apply flex w-11/12 mx-auto justify-between h-full;
+  }
+  .desktop-navbar-right-side-container {
+    @apply flex gap-x-16 h-full;
+  }
+  .desktop-navbar-logo-container {
+    @apply h-full flex items-center justify-center;
+  }
+  .desktop-navbar-links-container {
+    @apply flex gap-x-10 items-center h-full;
+  }
+  .desktop-navbar-link {
+    @apply cursor-pointer text-secondary font-semibold hover:text-primary transition-colors;
+  }
+  .desktop-navbar-left-side-container {
+    @apply flex items-center gap-x-5;
+  }
+  .desktop-navbar-icon {
+    @apply w-7 h-7 text-secondary cursor-pointer hover:text-primary transition-colors;
+  }
+  .desktop-navbar-icon-indicator {
+    @apply absolute -top-3 -left-3 bg-primary w-6 h-6 rounded-full text-white flex justify-center items-center text-sm;
+  }
+}
