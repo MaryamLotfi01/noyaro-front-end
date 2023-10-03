@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="w-full h-20 fixed top-0">
+    <header class="w-full h-20 fixed top-0 z-40">
       <!-- navbar -->
       <nav class="desktop-navbar-container">
         <!-- navbar right side container -->
@@ -128,15 +128,26 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="w-full">
       <!-- content header -->
-      <section>
+      <section class="relative flex items-center">
         <!-- content header image -->
         <div>
-          <img src="" alt="" />
+          <img src="../images/slide6-1.jpg" alt="" />
         </div>
         <!-- content header info -->
-        <div></div>
+        <div class="flex flex-col gap-y-4 absolute left-1/4">
+          <p class="text-primary font-bold tracking-wider">HOT DEAL PRODUCT</p>
+          <h2 class="text-black text-4xl font-bold tracking-wider">
+            Spring Sale
+          </h2>
+          <h3 class="text-black text-3xl font-bold tracking-wider">
+            Limit offer <span class="text-primary">20%</span> Off
+          </h3>
+          <a href="#" class="text-black font-bold cursor-pointer my-3"
+            >Shop now</a
+          >
+        </div>
       </section>
     </main>
   </body>
