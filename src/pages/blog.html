@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -128,13 +128,216 @@
         </div>
       </nav>
     </header>
-    <main class="mt-20">
-      <section class="w-full relative">
+    <main class="w-full mt-20">
+      <!-- Blog -->
+      <section class="relative">
         <img src="../images/banner-for-all2.jpg" alt="" />
 
         <div class="absolute top-44">
           <h3 class="text-3xl font-bold">Blog</h3>
           <div class="w-16 h-1 bg-primary"></div>
+        </div>
+      </section>
+      <!-- Right Sidebar -->
+      <section class="mt-10 relative w-7/12 mx-auto">
+        <!-- Categories -->
+        <div>
+          <!-- Search box -->
+          <div>
+            <input
+              type="text"
+              placeholder="Your search here..."
+              class="rounded-full relative p-2 text-sm w-60 border border-gray-300"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 absolute top-1 right-52"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+          </div>
+          <div class="flex flex-col gap-4 mt-12">
+            <div class="flex gap-x-3">
+              <div>
+                <div class="w-10 h-0.5 bg-black"></div>
+                <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+              </div>
+              <p class="text-sm font-bold">CATEGORIES</p>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="flex flex-col gap-y-4">
+              <div class="flex gap-x-2">
+                <input type="checkbox" />
+                <label for="" class="text-sm hover:text-primary">Healthy</label>
+              </div>
+              <div class="flex gap-x-2">
+                <input type="checkbox" />
+                <label for="" class="text-sm hover:text-primary">Fashion</label>
+              </div>
+              <div class="flex gap-x-2">
+                <input type="checkbox" />
+                <label for="" class="text-sm hover:text-primary"
+                  >Leafy green</label
+                >
+              </div>
+              <div class="flex gap-x-2">
+                <input type="checkbox" />
+                <label for="" class="text-sm hover:text-primary"
+                  >Collection</label
+                >
+              </div>
+              <div class="flex gap-x-2">
+                <input type="checkbox" />
+                <label for="" class="text-sm hover:text-primary"
+                  >Life Style</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Post -->
+        <div class="flex flex-col gap-y-5 mt-12">
+          <div class="flex gap-x-3">
+            <div>
+              <div class="w-10 h-0.5 bg-black"></div>
+              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+            </div>
+            <p class="text-sm font-bold">RECENT POST</p>
+          </div>
+          <div class="flex flex-col gap-y-4 w-64">
+            <div class="flex gap-x-4">
+              <img
+                src="../images/blogpost1-83x83.jpg"
+                alt=""
+                class="rounded-lg"
+              />
+              <div class="flex flex-col gap-y-3">
+                <a href="" class="text-sm hover:text-primary"
+                  >Not your ordinary baby service.</a
+                >
+                <p class="text-xs">December 19, 2018</p>
+              </div>
+            </div>
+            <div class="flex gap-x-4">
+              <img
+                src="../images/blogpost5-83x83.jpg"
+                alt=""
+                class="rounded-lg"
+              />
+              <div class="flex flex-col gap-y-3">
+                <a href="" class="text-sm hover:text-primary"
+                  >The child is sleeping on the bed.</a
+                >
+                <p class="text-xs">December 19, 2018</p>
+              </div>
+            </div>
+            <div class="flex gap-x-4">
+              <img
+                src="../images/blogpost9-83x83.jpg"
+                alt=""
+                class="rounded-lg"
+              />
+              <div class="flex flex-col gap-y-3">
+                <a href="" class="text-sm hover:text-primary"
+                  >The light is hugging the dog on the room</a
+                >
+                <p class="text-xs">December 19, 2018</p>
+              </div>
+            </div>
+            <div class="flex gap-x-4">
+              <img
+                src="../images/blogpost4-83x83.jpg"
+                alt=""
+                class="rounded-lg"
+              />
+              <div class="flex flex-col gap-y-3">
+                <a href="" class="text-sm hover:text-primary"
+                  >The child is swimming with a buoy</a
+                >
+                <p class="text-xs">December 19, 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Follow Us -->
+        <div class="flex flex-col gap-y-5 mt-12">
+          <div class="flex gap-x-3">
+            <div>
+              <div class="w-10 h-0.5 bg-black"></div>
+              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+            </div>
+            <p class="text-sm font-bold">FOLLOW US</p>
+          </div>
+          <!-- Logo -->
+          <div class="flex gap-x-3">
+            <div class="w-11 h-11 bg-black rounded-full"></div>
+            <div class="w-11 h-11 bg-black rounded-full"></div>
+            <div class="w-11 h-11 bg-black rounded-full"></div>
+            <div class="w-11 h-11 bg-black rounded-full"></div>
+          </div>
+        </div>
+        <!-- INSTAGRAM -->
+        <div class="flex flex-col gap-y-5 mt-12">
+          <div class="flex gap-x-3">
+            <div>
+              <div class="w-10 h-0.5 bg-black"></div>
+              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+            </div>
+            <p class="text-sm font-bold">INSTAGRAM</p>
+          </div>
+          <div class="flex flex-col gap-y-3 w-20">
+            <div class="flex gap-x-3">
+              <img src="../images/insta3.jpg" alt="" />
+              <img src="../images/insta2.jpg" alt="" />
+              <img src="../images/insta1.jpg" alt="" />
+            </div>
+            <div class="flex gap-x-3">
+              <img src="../images/insta6.jpg" alt="" />
+              <img src="../images/insta5.jpg" alt="" />
+              <img src="../images/insta4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- TAGS -->
+        <div class="flex flex-col gap-y-5 mt-12">
+          <div class="flex gap-x-3">
+            <div>
+              <div class="w-10 h-0.5 bg-black"></div>
+              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+            </div>
+            <p class="text-sm font-bold">TAGS</p>
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <div class="flex gap-x-3">
+              <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
+                Healthy
+              </div>
+              <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
+                Fashion
+              </div>
+            </div>
+            <div class="flex gap-x-3">
+              <div class="text-xs font-bold w-28 h-8 border text-center pt-2">
+                Leafy green
+              </div>
+              <div class="text-xs font-bold w-28 h-8 border text-center pt-2">
+                Callection
+              </div>
+            </div>
+            <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
+              life Style
+            </div>
+          </div>
         </div>
       </section>
     </main>
