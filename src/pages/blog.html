@@ -138,208 +138,379 @@
           <div class="w-16 h-1 bg-primary"></div>
         </div>
       </section>
-      <!-- Right Sidebar -->
       <section class="mt-10 relative w-7/12 mx-auto">
-        <!-- Categories -->
-        <div>
-          <!-- Search box -->
+        <div class="flex gap-x-6">
+          <!-- Right Sidebar -->
           <div>
-            <input
-              type="text"
-              placeholder="Your search here..."
-              class="rounded-full relative p-2 text-sm w-60 border border-gray-300"
-            />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-6 h-6 absolute top-1 right-52"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-              />
-            </svg>
-          </div>
-          <div class="flex flex-col gap-4 mt-12">
-            <div class="flex gap-x-3">
+            <!-- Categories -->
+            <div>
+              <!-- Search box -->
               <div>
-                <div class="w-10 h-0.5 bg-black"></div>
-                <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+                <input
+                  type="text"
+                  placeholder="Your search here..."
+                  class="rounded-full relative p-2 text-sm w-60 border border-gray-300"
+                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 absolute top-1 right-52"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                  />
+                </svg>
               </div>
-              <p class="text-sm font-bold">CATEGORIES</p>
+              <div class="flex flex-col gap-4 mt-12">
+                <div class="flex gap-x-3">
+                  <div>
+                    <div class="w-10 h-0.5 bg-black"></div>
+                    <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+                  </div>
+                  <p class="text-sm font-bold">CATEGORIES</p>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="flex flex-col gap-y-4">
+                  <div class="flex gap-x-2">
+                    <input type="checkbox" />
+                    <label for="" class="text-sm hover:text-primary"
+                      >Healthy</label
+                    >
+                  </div>
+                  <div class="flex gap-x-2">
+                    <input type="checkbox" />
+                    <label for="" class="text-sm hover:text-primary"
+                      >Fashion</label
+                    >
+                  </div>
+                  <div class="flex gap-x-2">
+                    <input type="checkbox" />
+                    <label for="" class="text-sm hover:text-primary"
+                      >Leafy green</label
+                    >
+                  </div>
+                  <div class="flex gap-x-2">
+                    <input type="checkbox" />
+                    <label for="" class="text-sm hover:text-primary"
+                      >Collection</label
+                    >
+                  </div>
+                  <div class="flex gap-x-2">
+                    <input type="checkbox" />
+                    <label for="" class="text-sm hover:text-primary"
+                      >Life Style</label
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <!-- Checkbox -->
-            <div class="flex flex-col gap-y-4">
-              <div class="flex gap-x-2">
-                <input type="checkbox" />
-                <label for="" class="text-sm hover:text-primary">Healthy</label>
+            <!-- Recent Post -->
+            <div class="flex flex-col gap-y-5 mt-12">
+              <div class="flex gap-x-3">
+                <div>
+                  <div class="w-10 h-0.5 bg-black"></div>
+                  <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+                </div>
+                <p class="text-sm font-bold">RECENT POST</p>
               </div>
-              <div class="flex gap-x-2">
-                <input type="checkbox" />
-                <label for="" class="text-sm hover:text-primary">Fashion</label>
+              <div class="flex flex-col gap-y-4 w-64">
+                <div class="flex gap-x-4">
+                  <img
+                    src="../images/blogpost1-83x83.jpg"
+                    alt=""
+                    class="rounded-lg"
+                  />
+                  <div class="flex flex-col gap-y-3">
+                    <a href="" class="text-sm hover:text-primary"
+                      >Not your ordinary baby service.</a
+                    >
+                    <p class="text-xs">December 19, 2018</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-4">
+                  <img
+                    src="../images/blogpost5-83x83.jpg"
+                    alt=""
+                    class="rounded-lg"
+                  />
+                  <div class="flex flex-col gap-y-3">
+                    <a href="" class="text-sm hover:text-primary"
+                      >The child is sleeping on the bed.</a
+                    >
+                    <p class="text-xs">December 19, 2018</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-4">
+                  <img
+                    src="../images/blogpost9-83x83.jpg"
+                    alt=""
+                    class="rounded-lg"
+                  />
+                  <div class="flex flex-col gap-y-3">
+                    <a href="" class="text-sm hover:text-primary"
+                      >The light is hugging the dog on the room</a
+                    >
+                    <p class="text-xs">December 19, 2018</p>
+                  </div>
+                </div>
+                <div class="flex gap-x-4">
+                  <img
+                    src="../images/blogpost4-83x83.jpg"
+                    alt=""
+                    class="rounded-lg"
+                  />
+                  <div class="flex flex-col gap-y-3">
+                    <a href="" class="text-sm hover:text-primary"
+                      >The child is swimming with a buoy</a
+                    >
+                    <p class="text-xs">December 19, 2018</p>
+                  </div>
+                </div>
               </div>
-              <div class="flex gap-x-2">
-                <input type="checkbox" />
-                <label for="" class="text-sm hover:text-primary"
-                  >Leafy green</label
-                >
+            </div>
+            <!-- Follow Us -->
+            <div class="flex flex-col gap-y-5 mt-12">
+              <div class="flex gap-x-3">
+                <div>
+                  <div class="w-10 h-0.5 bg-black"></div>
+                  <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+                </div>
+                <p class="text-sm font-bold">FOLLOW US</p>
               </div>
-              <div class="flex gap-x-2">
-                <input type="checkbox" />
-                <label for="" class="text-sm hover:text-primary"
-                  >Collection</label
-                >
+              <!-- Icones -->
+              <div class="flex gap-x-3">
+                <div class="w-11 h-11 bg-black rounded-full"></div>
+                <div class="w-11 h-11 bg-black rounded-full"></div>
+                <div class="w-11 h-11 bg-black rounded-full"></div>
+                <div class="w-11 h-11 bg-black rounded-full"></div>
               </div>
-              <div class="flex gap-x-2">
-                <input type="checkbox" />
-                <label for="" class="text-sm hover:text-primary"
-                  >Life Style</label
-                >
+            </div>
+            <!-- INSTAGRAM -->
+            <div class="flex flex-col gap-y-5 mt-12">
+              <div class="flex gap-x-3">
+                <div>
+                  <div class="w-10 h-0.5 bg-black"></div>
+                  <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+                </div>
+                <p class="text-sm font-bold">INSTAGRAM</p>
+              </div>
+              <div class="flex flex-col gap-y-3 w-20">
+                <div class="flex gap-x-3">
+                  <img src="../images/insta3.jpg" alt="" />
+                  <img src="../images/insta2.jpg" alt="" />
+                  <img src="../images/insta1.jpg" alt="" />
+                </div>
+                <div class="flex gap-x-3">
+                  <img src="../images/insta6.jpg" alt="" />
+                  <img src="../images/insta5.jpg" alt="" />
+                  <img src="../images/insta4.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- TAGS -->
+            <div class="flex flex-col gap-y-5 mt-12">
+              <div class="flex gap-x-3">
+                <div>
+                  <div class="w-10 h-0.5 bg-black"></div>
+                  <div class="w-5 h-0.5 bg-black mt-0.5"></div>
+                </div>
+                <p class="text-sm font-bold">TAGS</p>
+              </div>
+              <div class="flex flex-col gap-y-2">
+                <div class="flex gap-x-3">
+                  <div
+                    class="text-xs font-bold w-24 h-8 border text-center pt-2"
+                  >
+                    Healthy
+                  </div>
+                  <div
+                    class="text-xs font-bold w-24 h-8 border text-center pt-2"
+                  >
+                    Fashion
+                  </div>
+                </div>
+                <div class="flex gap-x-3">
+                  <div
+                    class="text-xs font-bold w-28 h-8 border text-center pt-2"
+                  >
+                    Leafy green
+                  </div>
+                  <div
+                    class="text-xs font-bold w-28 h-8 border text-center pt-2"
+                  >
+                    Callection
+                  </div>
+                </div>
+                <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
+                  life Style
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          <!-- Left Sidebar -->
+          <div class="flex flex-col gap-y-8">
+            <img src="../images/blogpost1.jpg" alt="" />
+            <h1 class="text-2xl font-bold">Not your ordinary baby service.</h1>
 
-        <!-- Recent Post -->
-        <div class="flex flex-col gap-y-5 mt-12">
-          <div class="flex gap-x-3">
-            <div>
-              <div class="w-10 h-0.5 bg-black"></div>
-              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
-            </div>
-            <p class="text-sm font-bold">RECENT POST</p>
-          </div>
-          <div class="flex flex-col gap-y-4 w-64">
             <div class="flex gap-x-4">
-              <img
-                src="../images/blogpost1-83x83.jpg"
-                alt=""
-                class="rounded-lg"
-              />
-              <div class="flex flex-col gap-y-3">
-                <a href="" class="text-sm hover:text-primary"
-                  >Not your ordinary baby service.</a
+              <div class="flex gap-x-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-primary"
                 >
-                <p class="text-xs">December 19, 2018</p>
-              </div>
-            </div>
-            <div class="flex gap-x-4">
-              <img
-                src="../images/blogpost5-83x83.jpg"
-                alt=""
-                class="rounded-lg"
-              />
-              <div class="flex flex-col gap-y-3">
-                <a href="" class="text-sm hover:text-primary"
-                  >The child is sleeping on the bed.</a
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <a href="#" class="hover:text-primary text-sm pt-1"
+                  >December 19, 2018</a
                 >
-                <p class="text-xs">December 19, 2018</p>
               </div>
-            </div>
-            <div class="flex gap-x-4">
-              <img
-                src="../images/blogpost9-83x83.jpg"
-                alt=""
-                class="rounded-lg"
-              />
-              <div class="flex flex-col gap-y-3">
-                <a href="" class="text-sm hover:text-primary"
-                  >The light is hugging the dog on the room</a
+              <span class="text-blue-500">/</span>
+              <div class="flex gap-x-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-primary"
                 >
-                <p class="text-xs">December 19, 2018</p>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125"
+                  />
+                </svg>
+                <p class="text-sm pt-1">
+                  By:
+                  <a href="" class="hover:text-primary font-semibold">Admin</a>
+                </p>
               </div>
             </div>
-            <div class="flex gap-x-4">
-              <img
-                src="../images/blogpost4-83x83.jpg"
-                alt=""
-                class="rounded-lg"
-              />
-              <div class="flex flex-col gap-y-3">
-                <a href="" class="text-sm hover:text-primary"
-                  >The child is swimming with a buoy</a
-                >
-                <p class="text-xs">December 19, 2018</p>
-              </div>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada
+              sodales quisque litora dapibus primis lacinia condimentum non
+              mauris, rutrum duis vitae fringilla vulputate nulla neque. Per
+              convallis pulvinar sem faucibus blandit commodo nec vulputate,
+              class fames accumsan duis eleifend quisque phasellus.
+            </p>
+            <div class="flex gap-x-5">
+              <div class="w-2 h-24 bg-primary"></div>
+              <p class="text-xs font-bold leading-6 italic pt-5">
+                Arcu dictum odio elementum torquent tincidunt aptent nec
+                convallis massa ultrices, urna nisl eu sollicitudin proin
+                imperdiet curabitur vestibulum dis diam, pretium porttitor
+                lectus senectus parturient sodales purus dapibus porta.
+              </p>
             </div>
-          </div>
-        </div>
-        <!-- Follow Us -->
-        <div class="flex flex-col gap-y-5 mt-12">
-          <div class="flex gap-x-3">
-            <div>
-              <div class="w-10 h-0.5 bg-black"></div>
-              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
-            </div>
-            <p class="text-sm font-bold">FOLLOW US</p>
-          </div>
-          <!-- Logo -->
-          <div class="flex gap-x-3">
-            <div class="w-11 h-11 bg-black rounded-full"></div>
-            <div class="w-11 h-11 bg-black rounded-full"></div>
-            <div class="w-11 h-11 bg-black rounded-full"></div>
-            <div class="w-11 h-11 bg-black rounded-full"></div>
-          </div>
-        </div>
-        <!-- INSTAGRAM -->
-        <div class="flex flex-col gap-y-5 mt-12">
-          <div class="flex gap-x-3">
-            <div>
-              <div class="w-10 h-0.5 bg-black"></div>
-              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
-            </div>
-            <p class="text-sm font-bold">INSTAGRAM</p>
-          </div>
-          <div class="flex flex-col gap-y-3 w-20">
-            <div class="flex gap-x-3">
-              <img src="../images/insta3.jpg" alt="" />
-              <img src="../images/insta2.jpg" alt="" />
-              <img src="../images/insta1.jpg" alt="" />
-            </div>
-            <div class="flex gap-x-3">
-              <img src="../images/insta6.jpg" alt="" />
-              <img src="../images/insta5.jpg" alt="" />
-              <img src="../images/insta4.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        <!-- TAGS -->
-        <div class="flex flex-col gap-y-5 mt-12">
-          <div class="flex gap-x-3">
-            <div>
-              <div class="w-10 h-0.5 bg-black"></div>
-              <div class="w-5 h-0.5 bg-black mt-0.5"></div>
-            </div>
-            <p class="text-sm font-bold">TAGS</p>
-          </div>
-          <div class="flex flex-col gap-y-2">
-            <div class="flex gap-x-3">
-              <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
-                Healthy
-              </div>
-              <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
-                Fashion
-              </div>
-            </div>
-            <div class="flex gap-x-3">
-              <div class="text-xs font-bold w-28 h-8 border text-center pt-2">
-                Leafy green
-              </div>
-              <div class="text-xs font-bold w-28 h-8 border text-center pt-2">
-                Callection
-              </div>
-            </div>
-            <div class="text-xs font-bold w-24 h-8 border text-center pt-2">
-              life Style
-            </div>
+            <p class="text-sm">
+              Ultricies pretium etiam sapien dictum libero eleifend justo
+              laoreet a, at in scelerisque augue posuere lectus ornare magna
+              penatibus vitae, eu leo molestie lacinia faucibus mi quis viverra.
+              Eleifend suspendisse fermentum pretium nulla taciti laoreet
+              dictumst dignissim vitae, fusce enim nibh cras natoque nam
+              placerat tristique sagittis, lacus pharetra magna non hendrerit
+              imperdiet sollicitudin per.
+            </p>
           </div>
         </div>
       </section>
     </main>
+    <footer class="w-full mt-20">
+      <div
+        class="w-full bg-zinc-100 flex gap-x-14 h-96 items-center justify-center"
+      >
+        <!-- right -->
+        <div class="flex flex-col gap-y-3">
+          <img src="../images/logo (1).png" alt="" class="w-40" />
+          <p class="text-sm">45 Grand Central Terminal New York,NY 1017</p>
+          <p class="text-sm">United State USA</p>
+          <a href="#" class="hover:text-primary text-sm"
+            >contact@yourcompany.com</a
+          >
+          <p class="text-sm">(+123) 456 789 - (+204) 666 888</p>
+          <!-- icons -->
+          <div class="flex gap-x-3">
+            <div class="w-10 h-10 bg-black rounded-full"></div>
+            <div class="w-10 h-10 bg-black rounded-full"></div>
+            <div class="w-10 h-10 bg-black rounded-full"></div>
+            <div class="w-10 h-10 bg-black rounded-full"></div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="flex gap-x-14">
+          <!-- center -->
+          <div class="flex flex-col gap-y-4">
+            <h3 class="font-bold text-sm tracking-wider">CUSTOMER</h3>
+            <a href="#" class="text-sm hover:text-primary"
+              >Shipping & Returns</a
+            >
+            <a href="#" class="text-sm hover:text-primary">Secure Shopping</a>
+            <a href="#" class="text-sm hover:text-primary">Order Status</a>
+            <a href="#" class="text-sm hover:text-primary"
+              >International Shipping</a
+            >
+            <a href="#" class="text-sm hover:text-primary">Affiliates </a>
+          </div>
+          <!-- center-2 -->
+          <div class="flex flex-col gap-y-4">
+            <h3 class="font-bold text-sm tracking-wider">INFORMATION</h3>
+            <a href="#" class="text-sm hover:text-primary">Privacy Policy</a>
+            <a href="#" class="text-sm hover:text-primary">Customer Service</a>
+            <a href="#" class="text-sm hover:text-primary"
+              >Orders and Returns</a
+            >
+            <a href="#" class="text-sm hover:text-primary">Contact</a>
+            <a href="#" class="text-sm hover:text-primary">Sitemap</a>
+          </div>
+          <!-- left -->
+          <div class="flex flex-col gap-y-4">
+            <h3 class="text-primary">Newsletter</h3>
+            <h3 class="font-bold text-xl">Get Discount 30% Off</h3>
+            <p class="text-sm w-80">
+              Nam sed felis at eros blandit ultrices et quis quam. In sit amet
+              molestie lectus.
+            </p>
+            <form action="" class="relative">
+              <input
+                type="text"
+                placeholder="Enter your email ..."
+                class="rounded-full text-xs w-80 h-10 pr-4 font-bold"
+              />
+              <button
+                class="bg-black text-white text-xs w-28 h-9 rounded-full absolute right-52 top-0.5"
+              >
+                SUBSCRIBE
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+        <div class="mt-6 flex justify-evenly ">
+          <p class="text-sm">
+            Copyright 2020
+            <a href="#" class="hover:text-primary font-bold">Kreen.</a>
+            All Rights Reserved
+          </p>
+          <img src="../images/payment.png" alt="" />
+        </div>
+      </div>
+      <br>
+    </footer>
   </body>
 </html>
