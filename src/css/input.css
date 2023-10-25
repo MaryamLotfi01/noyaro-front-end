@@ -12,6 +12,24 @@
 * {
   font-family: "IranSans";
 }
+.title-bg {
+  background-image: url("../images/backgrouds/title-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-bg {
+  background-image: url("../images/backgrouds/testi-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section-bg-2 {
+  background-image: url("../images/backgrouds/test-bg-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 @layer components {
   .desktop-navbar-container {
     @apply md:flex w-11/12 mx-auto justify-between h-full hidden;
@@ -48,5 +66,147 @@
   }
   .responsive-navbar-left-side-container {
     @apply flex items-center gap-x-2;
+  }
+  .content-header-info-container {
+    @apply flex flex-col gap-y-4 absolute left-1/4;
+  }
+  .content-header-info-header {
+    @apply text-primary tracking-wider;
+  }
+  .content-header-info-header-2 {
+    @apply text-black text-4xl tracking-wider;
+  }
+  .content-header-info-header-3 {
+    @apply text-black text-3xl tracking-wider;
+  }
+  .content-header-info-link-container {
+    @apply text-black cursor-pointer my-3 italic relative w-fit z-10;
+  }
+  .content-header-info-link-decor {
+    @apply absolute bg-primary h-2 bottom-0 transition-all duration-500 -z-10;
+  }
+  .content-header-info-link-decor-1 {
+    @apply content-header-info-link-decor w-full right-0 group-hover:w-0;
+  }
+  .content-header-info-link-decor-2 {
+    @apply content-header-info-link-decor w-0 left-0 group-hover:w-full delay-100;
+  }
+  .content-header-info-link-text {
+    @apply font-semibold text-lg px-3;
+  }
+  .attributes-container {
+    @apply flex flex-col lg:flex-row w-11/12 sm:w-10/12 lg:w-9/12 xl:w-7/12 mx-auto gap-7;
+  }
+  .attributes-item {
+    @apply flex border rounded-lg hover:border-primary gap-x-10 p-8;
+  }
+  .attributes-item-icon-container {
+    @apply flex items-center;
+  }
+  .attributes-item-icon {
+    @apply w-10 h-10 text-primary flex items-center;
+  }
+
+  .attributes-item-content-container {
+    @apply space-y-2;
+  }
+  .attributes-item-content-header {
+    @apply text-black font-bold;
+  }
+  .attributes-item-content-text {
+    @apply leading-relaxed text-sm;
+  }
+  .best-selling-container {
+    @apply w-11/12 sm:w-10/12 lg:w-9/12 xl:w-7/12 mx-auto;
+  }
+  .section-header-container {
+    @apply flex flex-col gap-y-5 w-7/12 mx-auto;
+  }
+  .section-header-title {
+    @apply text-black text-2xl font-bold title-bg text-center py-2;
+  }
+  .section-header-divider {
+    @apply w-16 h-1 bg-primary -mt-3 self-center;
+  }
+  .section-header-content {
+    @apply text-sm text-center;
+  }
+  .best-selling-items-container {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-10 gap-5;
+  }
+  .best-selling-item {
+    @apply border rounded-lg hover:border-primary relative;
+  }
+  .best-selling-item-indicator {
+    @apply bg-primary text-white rounded-lg text-xs px-2 py-0.5 text-center absolute left-2 top-3;
+  }
+  .best-selling-item-title {
+    @apply text-black font-bold text-sm hover:text-primary;
+  }
+  .best-selling-item-price-container {
+    @apply flex gap-x-2;
+  }
+  .best-selling-item-old-price {
+    @apply text-black text-xs line-through;
+  }
+  .best-selling-item-new-price {
+    @apply text-primary text-sm font-bold;
+  }
+  .deals-container {
+    @apply flex flex-col lg:flex-row w-7/12 mx-auto gap-x-4 py-5;
+  }
+  .deals-content-container {
+    @apply flex-1 flex flex-col gap-y-4 mt-10;
+  }
+  .deals-content-title {
+    @apply text-black text-2xl font-bold;
+  }
+  .deals-content-description {
+    @apply font-bold tracking-wider hover:text-primary;
+  }
+  .deals-content-price-container {
+    @apply flex gap-x-2 items-center;
+  }
+  .deals-content-old-price {
+    @apply line-through text-sm font-semibold;
+  }
+  .deals-content-new-price {
+    @apply bg-primary text-white rounded-2xl font-semibold text-sm px-2 py-0.5 flex justify-center items-center;
+  }
+  .deals-content-progress-container {
+    @apply w-full h-3 bg-slate-200 rounded-lg relative;
+  }
+  .deals-content-progress {
+    @apply w-4/12 h-2 rounded-lg bg-primary absolute right-0.5 top-0.5;
+  }
+  .deals-content-cart-container {
+    @apply flex bg-primary px-4 py-2 w-fit rounded-full justify-center items-center gap-x-2 cursor-pointer;
+  }
+  .from-our-blog-items-container {
+    @apply flex flex-col md:flex-row gap-5 mt-10;
+  }
+  .from-our-blog-item {
+    @apply flex flex-col gap-y-4 flex-1;
+  }
+  .from-our-blog-item-date-title-container {
+    @apply w-14 h-14 rounded-full bg-primary;
+  }
+  .from-our-blog-item-date {
+    @apply flex flex-col h-full items-center justify-center gap-y-1;
+  }
+  .from-our-blog-item-title {
+    @apply text-sm text-black font-bold hover:text-primary mt-3;
+  }
+  .footer-container {
+    @apply w-full bg-zinc-100 flex flex-col md:flex-row gap-x-14 py-20 items-center justify-center;
+  }
+  .footer-right-side {
+    @apply flex flex-col gap-y-3;
+  }
+  .footer-icon {
+    @apply w-10 h-10 bg-black rounded-full;
+  }
+  .footer-link {
+    @apply text-sm hover:text-primary;
   }
 }
