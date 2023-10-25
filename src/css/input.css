@@ -34,6 +34,12 @@
   .desktop-navbar-container {
     @apply md:flex w-11/12 mx-auto justify-between h-full hidden;
   }
+  .simple-navbar {
+    @apply w-full h-20 fixed top-0 z-40 transition-all duration-500;
+  }
+  .scrolled-navbar {
+    @apply bg-white !h-14;
+  }
   .desktop-navbar-right-side-container {
     @apply flex gap-x-8 lg:gap-x-16 h-full;
   }
