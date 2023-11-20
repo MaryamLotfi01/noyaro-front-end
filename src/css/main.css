@@ -568,6 +568,12 @@ video {
   }
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .desktop-navbar-container {
   margin-left: auto;
   margin-right: auto;
@@ -1264,18 +1270,11 @@ video {
   right: 13rem;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.top-0\.5 {
-  top: 0.125rem;
-}
-
 .top-1 {
   top: 0.25rem;
 }
 
+<<<<<<< Updated upstream
 .top-40 {
   top: 10rem;
 }
@@ -1288,6 +1287,8 @@ video {
   z-index: 40;
 }
 
+=======
+>>>>>>> Stashed changes
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1327,10 +1328,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .block {
@@ -1377,10 +1374,6 @@ video {
   height: 0.25rem;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-11 {
   height: 2.75rem;
 }
@@ -1415,14 +1408,6 @@ video {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-9 {
-  height: 2.25rem;
-}
-
-.h-96 {
-  height: 24rem;
 }
 
 .h-full {
@@ -1513,10 +1498,6 @@ video {
   width: 58.333333%;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1563,10 +1544,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
 }
 
 .gap-12 {
@@ -1710,11 +1687,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-zinc-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -1741,10 +1713,6 @@ video {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .pt-1 {
