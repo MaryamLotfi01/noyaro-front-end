@@ -925,9 +925,9 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 700;
+  font-family: Pacifico,cursive;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
   background-image: url("../images/backgrouds/title-bg.png");
@@ -1274,24 +1274,17 @@ video {
   top: 0.25rem;
 }
 
-<<<<<<< Updated upstream
-.top-40 {
-  top: 10rem;
-}
-
-.top-44 {
-  top: 11rem;
-}
-
-.z-40 {
-  z-index: 40;
-}
-
-=======
->>>>>>> Stashed changes
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mt-0 {
@@ -1316,10 +1309,6 @@ video {
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .mt-3 {
@@ -1372,6 +1361,10 @@ video {
 
 .h-1 {
   height: 0.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-11 {
@@ -1474,10 +1467,6 @@ video {
   width: 1.25rem;
 }
 
-.w-5\/12 {
-  width: 41.666667%;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -1502,12 +1491,12 @@ video {
   width: 100%;
 }
 
-.w-4\/12 {
-  width: 33.333333%;
+.w-5\/12 {
+  width: 41.666667%;
 }
 
-.w-3\/12 {
-  width: 25%;
+.w-6\/12 {
+  width: 50%;
 }
 
 .flex-1 {
@@ -1602,10 +1591,6 @@ video {
   row-gap: 0.25rem;
 }
 
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
 .gap-y-2 {
   row-gap: 0.5rem;
 }
@@ -1672,11 +1657,6 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-fuchsia-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(192 38 211 / var(--tw-bg-opacity));
-}
-
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(128 184 45 / var(--tw-bg-opacity));
@@ -1705,6 +1685,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1731,6 +1716,10 @@ video {
   text-align: center;
 }
 
+.font-pacifico {
+  font-family: Pacifico,cursive;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1741,9 +1730,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-lg {
@@ -1788,6 +1777,10 @@ video {
 
 .tracking-wider {
   letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-black {

@@ -132,7 +132,7 @@
     @apply flex flex-col gap-y-5 w-7/12 mx-auto;
   }
   .section-header-title {
-    @apply text-black text-2xl font-bold title-bg text-center py-2;
+    @apply text-black text-4xl title-bg text-center py-2 font-pacifico;
   }
   .section-header-divider {
     @apply w-16 h-1 bg-primary -mt-3 self-center;

@@ -8,6 +8,9 @@ module.exports = {
         secondary: "#F5F5F5",
         third: "#f4f4f4",
       },
+      fontFamily: {
+        pacifico: "Pacifico,cursive",
+      },
     },
   },
   plugins: [],
