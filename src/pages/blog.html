@@ -134,25 +134,25 @@
     </header>
     <main class="w-full mt-20">
       <!-- Blog -->
-      <section class="relative flex-center">
+      <section class="mt-20 relative flex-center">
         <img src="../images/banner-for-all2.jpg" alt="" />
-        <div class="absolute">
-          <h3 class="text-3xl font-bold">Blog</h3>
+        <div class="flex flex-col absolute items-center">
+          <h1 class="text-5xl font-pacifico">Blog</h1>
           <div class="w-16 h-1 bg-primary"></div>
         </div>
       </section>
-      <section class="mt-10 relative w-7/12 mx-auto">
-        <div class="flex gap-x-6">
+      <section class="mt-10 relative xl:w-7/12 w-11/12 mx-auto">
+        <div class="flex xl:gap-x-6 xl:flex-row flex-col">
           <!-- Right Sidebar -->
-          <div>
+          <div class="xl:order-1 order-2">
             <!-- Categories -->
             <div>
               <!-- Search box -->
-              <div>
+              <div class="relative">
                 <input
                   type="text"
                   placeholder="Your search here..."
-                  class="rounded-full relative p-2 text-sm w-60 border border-gray-300"
+                  class="rounded-full relative py-2 px-8 text-sm w-60 border border-gray-300"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6 absolute top-1 right-52"
+                  class="w-6 h-6 absolute top-1.5 right-2 text-gray-300"
                 >
                   <path
                     stroke-linecap="round"
@@ -358,10 +358,12 @@
             </div>
           </div>
           <!-- Left Sidebar -->
-          <div class="flex flex-col gap-y-8">
+          <div class="flex flex-col gap-y-8 xl:order-2 order-1">
+            <!-- post banner -->
             <img src="../images/blogpost1.jpg" alt="" />
+            <!-- post header -->
             <h1 class="text-2xl font-bold">Not your ordinary baby service.</h1>
-
+            <!-- post info -->
             <div class="flex gap-x-4">
               <div class="flex gap-x-2">
                 <svg
@@ -429,6 +431,138 @@
               placerat tristique sagittis, lacus pharetra magna non hendrerit
               imperdiet sollicitudin per.
             </p>
+            <div class="flex xl:flex-row flex-col gap-x-5">
+              <div>
+                <img src="../images/about-img.jpg" alt="" />
+              </div>
+              <div>
+                <img src="../images/blog-gallery-1.jpg" alt="" />
+              </div>
+            </div>
+            <section class="flex flex-col">
+              <div class="flex flex-wrap gap-2">
+                <a href="#" class="blog-tag-link">Healthy</a>
+                <a href="#" class="blog-tag-link">Healthy</a>
+                <a href="#" class="blog-tag-link">Healthy</a>
+                <a href="#" class="blog-tag-link">Healthy</a>
+              </div>
+              <div
+                class="border-y mt-10 py-3 flex justify-between xl:flex-row flex-col gap-y-2"
+              >
+                <div class="flex gap-x-2 items-center">
+                  <h3 class="blog-info-title">Categories:</h3>
+                  <p>
+                    <a href="#" class="blog-categories-link">Healthy</a>
+                    <span>,</span>
+                  </p>
+                  <p>
+                    <a href="#" class="blog-categories-link">Healthy</a>
+                    <span>,</span>
+                  </p>
+                  <p>
+                    <a href="#" class="blog-categories-link">Healthy</a>
+                  </p>
+                </div>
+                <div class="flex gap-x-2 items-center">
+                  <h3 class="blog-info-title">Share:</h3>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 hover:text-primary transition-all duration-300"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 hover:text-primary transition-all duration-300"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 hover:text-primary transition-all duration-300"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 hover:text-primary transition-all duration-300"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="flex flex-col">
+              <h3 class="text-lg font-bold">Leave a comment</h3>
+              <p class="text-content text-sm mt-5">
+                Your email adchair will not be published. Required fields are
+                marked <span class="text-red-600">*</span>
+              </p>
+              <form action="#" class="grid grid-cols-12 mt-5 gap-5">
+                <input
+                  type="text"
+                  class="rounded-input col-span-6"
+                  placeholder="Name *"
+                />
+                <input
+                  type="text"
+                  class="rounded-input col-span-6"
+                  placeholder="Email *"
+                />
+                <textarea
+                  name=""
+                  class="col-span-12 h-52 border outline-none rounded-md text-sm px-5 py-4"
+                  placeholder="Enter you comment here..."
+                ></textarea>
+                <div class="col-span-12">
+                  <button
+                    class="px-6 py-3 bg-black hover:bg-primary transition-all duration-300 text-white rounded-full"
+                  >
+                    Post A Comment
+                  </button>
+                </div>
+              </form>
+            </section>
           </div>
         </div>
       </section>

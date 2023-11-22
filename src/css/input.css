@@ -218,4 +218,16 @@
   .footer-link {
     @apply text-sm hover:text-primary;
   }
+  .blog-tag-link {
+    @apply text-xs font-bold border text-center px-6 py-2 transition-all duration-300 hover:bg-black hover:text-white;
+  }
+  .blog-categories-link {
+    @apply text-black font-semibold text-sm hover:text-primary transition-all duration-300;
+  }
+  .blog-info-title {
+    @apply text-sm font-semibold text-content;
+  }
+  .rounded-input {
+    @apply border py-3 px-5 rounded-full outline-none text-sm;
+  }
 }
