@@ -230,4 +230,7 @@
   .rounded-input {
     @apply border py-3 px-5 rounded-full outline-none text-sm;
   }
+  .blogs-link {
+    @apply text-black font-semibold underline underline-offset-4 decoration-black decoration-2 hover:text-primary transition-all duration-300 hover:decoration-primary;
+  }
 }
