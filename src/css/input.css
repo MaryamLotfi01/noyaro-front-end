@@ -248,4 +248,12 @@
   .product-tab.active{
     @apply decoration-primary
   }
+  .account-page-link{
+    @apply hover:text-primary text-sm font-semibold py-3
+  }
+  .account-page-link.active{
+    @apply text-primary
+  }
+  
 }
+
