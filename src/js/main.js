@@ -4,8 +4,8 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 300 ||
-    document.documentElement.scrollTop > 300
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
   ) {
     $(".simple-navbar").addClass("scrolled-navbar");
   } else {
