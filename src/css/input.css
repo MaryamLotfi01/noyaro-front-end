@@ -233,4 +233,13 @@
   .blogs-link {
     @apply text-black font-semibold underline underline-offset-4 decoration-black decoration-2 hover:text-primary transition-all duration-300 hover:decoration-primary;
   }
+  .product-thumbnail-btn{
+    @apply bg-primary py-1 flex-center
+  }
+  .product-thumbnail-img{
+    @apply aspect-square p-2 border border-slate-200
+  }
+  .product-page-attribute{
+    @apply border rounded-lg px-4 py-8 flex items-center gap-x-5 cursor-pointer hover:border-primary transition-all duration-300
+  }
 }
