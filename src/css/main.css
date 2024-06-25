@@ -4337,6 +4337,10 @@ details.collapse summary::-webkit-details-marker {
     order: 2;
   }
 
+  .lg\:h-56 {
+    height: 14rem;
+  }
+
   .lg\:w-10\/12 {
     width: 83.333333%;
   }
